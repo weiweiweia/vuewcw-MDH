@@ -16,7 +16,7 @@ Vue.use(vueLazyload, {
   attempt: 1 // // 尝试加载真实图片的次数
   // error 与 loading 可以使用线上图片链接，也可以使用本地图片链接，但是要注意，
   // 1. 如果地址是src文件夹中的图片，需要使用 require 去引入
-  // 2. 如果地址是public文件夹中的，可以将 public 看成 / 去组织url地址
+  // 2. 如果地址是public文件夹中的，可以将 public 看成 / 去组织url地址..
 })
 Vue.config.productionTip = false
 
