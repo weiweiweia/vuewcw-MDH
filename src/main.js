@@ -8,7 +8,7 @@ import './assets/styles/base.scss'
 import vueLazyload from 'vue-lazyload'
 // 调用
 Vue.use(vueLazyload, {
-  preLoad: 1.3, // 预加载高度
+  preLoad: 1.4, // 预加载高度
   error:
     'http://i0.hdslb.com/bfs/article/2044ade1221373962a06b6992cba64a9c1b9b5d8.jpg', // 当加载真实图片出错时，显示的替代图片
   loading:
